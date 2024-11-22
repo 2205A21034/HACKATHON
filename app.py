@@ -1,5 +1,5 @@
 import streamlit as st 
-st.title("02341A0259-ps10")
+st.title("2205A21034-ps10")
 def Gen_Eff(V,CL,IL,K,Rse,Ra):
     CUL=(K*IL)**2*(Rse+Ra)
     Eff=(((K*V*IL)/((K*V*IL)+CL+CUL))*100)
